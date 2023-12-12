@@ -64,7 +64,8 @@ body {
 }
 
 .cabecalho__audio {
-    border: 0px;
+    border-radius: 100%;
+    border: 3px;
     background-color: var(--branco);
 }
 
