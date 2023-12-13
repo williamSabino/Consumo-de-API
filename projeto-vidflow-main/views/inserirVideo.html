@@ -5,30 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VidFlow</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/inserirVideo.css">
     <link rel="shortcut icon" href="../img/Favicon.png" type="image/x-icon">
 </head>
 
 <body>
+
     <main class="inserirVideo__container">
+        <div class="logo__item">
+            <img src="../img/VidFlow--Logo-light-mode.png" alt="Logo do VidFlow">
+        </div>
+
+        <h1>Adicionar video</h1>
         <form class="formulario__inserirVideo">
             <div class="inserir__titulo">
                 <label for="titulo" class="titulo-label">Titulo</label>
                 <input type="text" name="" id="titulo" class="titulo-input" data-titulo>
             </div>
             <div class="inserir__url">
-                <label for="url" class="url-label">url</label>
+                <label for="url" class="url-label">URL</label>
                 <input type="text" name="" id="url" class="url-input" data-url>
             </div>
             <div class="inserir__imagem">
-                <label for="imagem" class="imagem-label">imagem</label>
+                <label for="imagem" class="imagem-label">Imagem</label>
                 <input type="text" name="" id="imagem" class="imagem-input" data-imagem>
             </div>
             <div class="inserir__categoria">
-                <label for="categoria" class="categoria-label">categoria</label>
+                <label for="categoria" class="categoria-label">Categoria</label>
                 <input type="text" name="" id="categoria" class="categoria-input" data-categoria>
             </div>
 
-            <input type="submit" value="Adicionar">
+            <div class="formulario__botoes">
+                <input type="button" value="Voltar">
+                <input type="submit" value="Adicionar">
+            </div>
         </form>
     </main>
 

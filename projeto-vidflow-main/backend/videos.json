@@ -103,6 +103,22 @@
       "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
       "id": 13,
       "categoria": "Inteligência Artificial"
+    },
+    {
+      "titulo": "CARIANI - O TRONO DE PÓ",
+      "descricao": "2 mil visualizações",
+      "url": "https://www.youtube.com/embed/vsWoqpbglmc",
+      "imagem": "https://yt3.ggpht.com/s3BOuHGgVyg-vWROZvPWEkKzuBYUu0njpxaqc7aHjUFCWvZSGlhSnfQT0CT5gOxCvUwGPZfp=s48-c-k-c0x00ffffff-no-nd-rj",
+      "categoria": "Documentario",
+      "id": 15
+    },
+    {
+      "titulo": "O MUNDO JÁ PODE ACABAR",
+      "descricao": "7 mil visualizações",
+      "url": "https://www.youtube.com/embed/fIX9SraUD9o",
+      "imagem": "https://yt3.ggpht.com/s3BOuHGgVyg-vWROZvPWEkKzuBYUu0njpxaqc7aHjUFCWvZSGlhSnfQT0CT5gOxCvUwGPZfp=s48-c-k-c0x00ffffff-no-nd-rj",
+      "categoria": "Documentario",
+      "id": 16
     }
   ]
 }

@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+    --azul-profundo: #01080E;
+    --azul-escuro: #041832;
+    --azul-medio: #144480;
+    --azul-destaque-light: #1875E9;
+    --azul-destaque-dark: #3985D8;
+    --cinza-escuro: #222222;
+    --cinza-medio: #C5C5C5;
+    --cinza-claro: #F2F2F2;
+    --branco: #FFFFFF;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--azul-escuro);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inserirVideo__container{
+    background-color: var(--cinza-medio);
+    width: 550px;
+    height: 500px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.inserirVideo__container h1{
+    color: var(--azul-profundo);
+    font-size: 28px;
+    margin: 20px;
+}
+
+.formulario__inserirVideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario__inserirVideo div {
+    margin: 5px;
+}
+
+.formulario__inserirVideo label{
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+.formulario__inserirVideo input {
+    text-align: center;
+    width: 400px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: var(--branco);
+}
+
+.formulario__botoes{
+    text-align: center;
+}
+
+.formulario__botoes input{
+    cursor: pointer;
+    margin-top: 30px;
+    width: 200px;
+    padding: 7px 10px;
+}
+
+.formulario__botoes input:hover{
+    border: solid white 3px;
+}
+
+.formulario__botoes input[value="Adicionar"]{
+    background-color: var(--azul-escuro);
+    color: var(--branco);
+}
+
+.formulario__botoes input[value="Voltar"]{
+    background-color: var(--cinza-escuro);
+    color: var(--branco);
+}
