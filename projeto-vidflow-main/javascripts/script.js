@@ -60,11 +60,11 @@ function filtrarVideos(digitado) {
                 video.style.display = "block";
             }
 
-            if(pesquisarInput === ""){
+            if (pesquisarInput === "") {
                 video.style.display = "block";
             }
         }
-    } 
+    }
 }
 
 function filtrarCategorias(categoria) {
@@ -85,5 +85,20 @@ function filtrarCategorias(categoria) {
         }
     }
 }
+
+const btnSwitch = document.querySelector('.cabecalho__switch');
+const datahtml = document.querySelector('html');
+
+btnSwitch.addEventListener('change', () => {
+    let atributo = datahtml.getAttributeNames()[1];
+
+    if (atributo === 'data-light') {
+        datahtml.removeAttribute('data-light');
+        datahtml.setAttribute('data-dark', "data-dark");
+    } else if (atributo === 'data-dark') {
+        datahtml.removeAttribute('data-dark');
+        datahtml.setAttribute('data-light', "data-light");
+    }
+});
 
 

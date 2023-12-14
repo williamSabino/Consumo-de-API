@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+[data-light] {
     --azul-profundo: #01080E;
     --azul-escuro: #041832;
     --azul-medio: #144480;
@@ -12,6 +10,21 @@
     --branco: #FFFFFF;
     box-sizing: border-box;
 }
+
+[data-dark] {
+    --azul-profundo: #ffffff;
+    --azul-escuro: #041832;
+    --azul-medio: #144480;
+    --azul-destaque-light: #1875E9;
+    --azul-destaque-dark: #3985D8;
+    --cinza-escuro: #222222;
+    --cinza-medio: #C5C5C5;
+    --cinza-claro: lightgray;
+    --branco: black;
+    box-sizing: border-box;
+}
+
+
 
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -29,10 +42,9 @@ body {
 /* CABEÇALHO */
 
 .cabecalho__container {
-    background-color: var(--branco);
+    background-color: var(--cinza-claro);
     height: 80px;
     width: 100%;
-    padding: 0 25px;
 }
 
 .logo__item {
@@ -66,7 +78,6 @@ body {
 .cabecalho__audio {
     border-radius: 100%;
     border: 3px;
-    background-color: var(--branco);
 }
 
 .cabecalho__videos {
@@ -100,7 +111,7 @@ body {
 .cabecalho__switch {
     position: relative;
     display: inline-block;
-    padding: 13px 30px 13px 13px;
+    left: 110px;
     width: 60px;
     height: 34px;
   }
@@ -118,7 +129,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--cinza-claro);
+    background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 34px;
@@ -131,7 +142,7 @@ body {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: var(--branco);
+    background-color: var(--azul-profundo);
     -webkit-transition: .4s;
     transition: .4s;
     border-radius: 50%;
@@ -156,7 +167,7 @@ body {
 
 .menu__container {
     font-size: 14px;
-    background-color: var(--branco);
+    background-color: var(--cinza-claro);
 }
 
 .icone__inicio::before {
@@ -164,6 +175,7 @@ body {
 }
 
 .icone__explorar::before {
+
     content: url(../img/sidebar/explore.png);
 }
 
@@ -282,7 +294,6 @@ body {
 /* SEÇÃO VÍDEOS */
 
 .videos__container {
-    color: black;
     padding: 153px 20px 10px 20px;
 }
 
@@ -300,12 +311,12 @@ iframe{
 
 .descricao-video .titulo-video {
     font-weight: 700;
-    color: var(--cinza-escuro);
+    color: var(--azul-profundo);
 }
 
 .descricao-video .titulo-canal {
     font-size: 14px;
-    color: var(--cinza-escuro);
+    color: var(--azul-profundo);
 }  
 
 ::-webkit-scrollbar{
@@ -326,6 +337,7 @@ iframe{
     }
 
     .menu__lista {
+        color: black;
         padding-top: 15px;
     }
 
@@ -373,3 +385,5 @@ iframe{
     }
 
 }
+
+

@@ -1,6 +1,6 @@
 *,
-*::before,
-*::after {
+*::after,
+*::before{
     --azul-profundo: #01080E;
     --azul-escuro: #041832;
     --azul-medio: #144480;
@@ -12,6 +12,7 @@
     --branco: #FFFFFF;
     box-sizing: border-box;
 }
+
 
 body{
     background-color: var(--azul-escuro);
